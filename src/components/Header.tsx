@@ -1,17 +1,16 @@
 import { useState } from "react";
 import { Menu, X, Phone, Mail } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Services", href: "#services" },
-    { label: "Process", href: "#process" },
-    { label: "Contact", href: "#contact" },
+    { label: "Home", href: "/#home" },
+    { label: "About Us", href: "/#about" },
+    { label: "Services", href: "/#services" },
+    { label: "Process", href: "/#process" },
+    { label: "Contact Us", href: "/#contact" },
   ];
 
   return (
@@ -36,7 +35,7 @@ const Header = () => {
       {/* Main nav */}
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <a href="#home" className="flex items-center gap-3">
+          <a href="/#home" className="flex items-center gap-3">
             <img src={logo} alt="GField Construction Logo" className="h-12 w-auto" />
           </a>
 
@@ -51,9 +50,6 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="default" className="font-heading text-lg tracking-wide">
-              Get Quote
-            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -80,9 +76,6 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="default" className="font-heading text-lg tracking-wide w-full mt-2">
-                Get Quote
-              </Button>
             </div>
           </div>
         )}

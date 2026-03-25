@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="animate-slide-in-left">
             <div className="flex items-center gap-4 mb-6">
               <div className="red-strip" />
-              <span className="font-heading text-lg tracking-widest text-muted-foreground">2025</span>
+              <span className="font-heading text-lg tracking-widest text-muted-foreground">2026</span>
             </div>
             
             <h1 className="font-heading text-6xl md:text-7xl lg:text-8xl xl:text-9xl leading-none mb-6">
