@@ -23,12 +23,12 @@ const Header = () => {
               <Phone className="w-4 h-4" />
               <span className="hidden sm:inline">+233-54-460-3328</span>
             </a>
-            <a href="mailto:info@gfieldconstruction.com" className="flex items-center gap-2 hover:text-primary transition-colors">
+            <a href="mailto:info@gfieldcompanyltd.com" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Mail className="w-4 h-4" />
-              <span className="hidden sm:inline">info@gfieldconstruction.com</span>
+              <span className="hidden sm:inline">info@gfieldcompanyltd.com</span>
             </a>
           </div>
-          <span className="hidden md:block">www.gfieldconstruction.com</span>
+          <span className="hidden md:block">www.gfieldcompanyltd.com</span>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
-            <img src={logo} alt="GField Construction Logo" className="h-12 w-auto" />
+            <img src={logo} alt="GField Company Limited Logo" className="h-12 w-auto" />
           </a>
 
           {/* Desktop nav */}

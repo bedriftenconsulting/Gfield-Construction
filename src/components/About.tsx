@@ -8,7 +8,7 @@ const About = () => {
         <div className="relative mb-16 overflow-hidden bg-secondary">
           <img
             src={truckImage}
-            alt="GField Construction truck"
+            alt="GField Company Limited truck"
             className="w-full h-[300px] md:h-[400px] object-cover"
           />
           {/* Red accent block */}
@@ -23,7 +23,7 @@ const About = () => {
           
           <div className="space-y-6 text-lg text-muted-foreground">
             <p>
-              GField Construction is a Ghanaian-owned civil engineering and construction company specializing in road and infrastructure development. We primarily provide road construction services to the Government of Ghana, working under the supervision of the Department of Feeder Roads and the Ministry of Roads and Highways.
+              GField Company Limited is a Ghanaian-owned civil engineering and construction company specializing in road and infrastructure development. We primarily provide road construction services to the Government of Ghana, working under the supervision of the Department of Feeder Roads and the Ministry of Roads and Highways.
             </p>
             
             <p>
@@ -38,7 +38,7 @@ const About = () => {
 
         {/* Page indicator */}
         <div className="flex justify-between items-center mt-16 pt-8 border-t border-border">
-          <span className="text-muted-foreground">GField Construction</span>
+          <span className="text-muted-foreground">GField Company Limited</span>
           <span className="font-heading text-xl">01</span>
         </div>
       </div>

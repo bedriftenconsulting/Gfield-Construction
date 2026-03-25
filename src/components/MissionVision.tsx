@@ -66,7 +66,7 @@ const MissionVision = () => {
 
         {/* Page indicator */}
         <div className="flex justify-between items-center mt-16 pt-8 border-t border-secondary-foreground/20">
-          <span className="text-secondary-foreground/60">GField Construction</span>
+          <span className="text-secondary-foreground/60">GField Company Limited</span>
           <span className="font-heading text-xl">02</span>
         </div>
       </div>

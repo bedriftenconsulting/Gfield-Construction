@@ -6,9 +6,9 @@ const Contact = () => {
       {/* Main content */}
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-2xl">
-          <p className="text-muted-foreground mb-4">www.gfieldconstruction.com</p>
+          <p className="text-muted-foreground mb-4">www.gfieldcompanyltd.com</p>
           
-          <h2 className="section-heading mb-4">GField<br />Construction</h2>
+          <h2 className="section-heading mb-4">GField<br />Company Limited</h2>
           
           <p className="text-xl text-muted-foreground mb-12">
             Exceptional <span className="text-primary">solution</span> that <span className="text-primary">shape</span> enduring spaces.
@@ -29,11 +29,11 @@ const Contact = () => {
             </a>
             
             <a 
-              href="mailto:info@gfieldconstruction.com" 
+              href="mailto:info@gfieldcompanyltd.com" 
               className="flex items-center gap-4 py-8 px-4 hover:bg-primary-foreground/10 transition-colors"
             >
               <Mail className="w-6 h-6" />
-              <span className="font-heading text-lg tracking-wide">info@gfieldconstruction.com</span>
+              <span className="font-heading text-lg tracking-wide">info@gfieldcompanyltd.com</span>
             </a>
             
             <div className="flex items-center gap-4 py-8 px-4">
@@ -54,7 +54,7 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-secondary-foreground/60 text-sm">
-              © 2025 GField Construction Company Limited. All rights reserved.
+              © 2025 GField Company Limited. All rights reserved.
             </p>
             <p className="text-secondary-foreground/60 text-sm">
               Class A2B2 Certified | TIN: C006297761X

@@ -13,8 +13,7 @@ const Hero = () => {
             </div>
             
             <h1 className="font-heading text-6xl md:text-7xl lg:text-8xl xl:text-9xl leading-none mb-6">
-              GFIELD<br />
-              <span className="text-foreground">CONSTRUCTION</span>
+              GFIELD<br /><span className="text-foreground">COMPANY LIMITED</span>
             </h1>
             
             <p className="font-heading text-xl md:text-2xl tracking-widest text-muted-foreground mb-8">
@@ -69,7 +68,7 @@ const Hero = () => {
 
       {/* Website URL */}
       <div className="absolute bottom-8 right-8 hidden lg:block">
-        <span className="font-body text-sm text-muted-foreground">www.gfieldconstruction.com</span>
+        <span className="font-body text-sm text-muted-foreground">www.gfieldcompanyltd.com</span>
       </div>
     </section>
   );

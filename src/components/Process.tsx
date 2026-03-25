@@ -89,7 +89,7 @@ const Process = () => {
 
         {/* Page indicator */}
         <div className="flex justify-between items-center mt-8 pt-8 border-t border-border">
-          <span className="text-muted-foreground">GField Construction</span>
+          <span className="text-muted-foreground">GField Company Limited</span>
           <span className="font-heading text-xl">04</span>
         </div>
       </div>
