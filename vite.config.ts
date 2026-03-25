@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/",
+  base: "/Gfield-Construction/",
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean,
   ),
